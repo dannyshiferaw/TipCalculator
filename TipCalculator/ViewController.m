@@ -47,8 +47,8 @@
     //Tip percentages
     NSArray *percentages = @[@(0.15), @(0.20), @(0.22)];
     double tipPercentage = [percentages[self.tipControl.selectedSegmentIndex] doubleValue];
-    double total = bill + (bill * tipPercentage);
     double tip = tipPercentage * bill;
+    double total = tip + bill;
     self.tipLabel.text = [NSString stringWithFormat:@"$%.2f", tip];
     self.totalLabel.text = [NSString stringWithFormat: @"$%.2f", total];
 }

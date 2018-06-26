@@ -66,7 +66,6 @@
                                 </segments>
                                 <connections>
                                     <action selector="edited:" destination="BYZ-38-t0r" eventType="valueChanged" id="Qph-Zf-NUy"/>
-                                    <action selector="tipPercentageChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="LLW-IK-W2t"/>
                                 </connections>
                             </segmentedControl>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nxi-xO-qQE">
